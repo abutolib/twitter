@@ -31,6 +31,7 @@ export const Profile = () => {
       <img width={840}  src={BoshIcon} ></img>
       <div className='position-relative'>
         <img className='bobur-img d-block' src={Bobur} width={130} height={130} />
+        <button className='edit-btn'>Edit profile</button>
       </div>
       <div className='container5'>
         <p className='owneer-name'>{name}</p>

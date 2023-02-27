@@ -72,3 +72,18 @@
   line-height: 24px;
   color: #1DA1F2;
 }
+
+.edit-btn {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  padding: 10px 15px;
+  font-family: 'Segoe UI';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+}
