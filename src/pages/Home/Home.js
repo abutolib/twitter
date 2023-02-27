@@ -49,9 +49,9 @@ export const Home = () => {
       time: time,
       src: imgUrl ? imgUrl:"",
     }
-
+    
     setTodos([todo, ...todos])
-
+    setImgUrl('')
     inputValue.current.value = ""
   }
 
