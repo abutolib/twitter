@@ -1,0 +1,37 @@
+.todo-owner {
+  margin: 0;
+  font-family: 'Segoe UI';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.todo-text {
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+
+}
+
+.todo-nik {
+  margin: 0;
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.todo-text {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}

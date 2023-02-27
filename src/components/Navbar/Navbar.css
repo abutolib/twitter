@@ -1,0 +1,62 @@
+.navbar-wrapper {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  max-width: 288px;
+  padding-left: 20px;
+  height: 100vh;
+}
+
+.navbar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 0;
+  margin-bottom: 32px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.active {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  font-family: 'Segoe UI';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.notactive {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  font-family: 'Segoe UI';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.ownear-name {
+  margin: 0;
+  font-family: 'Segoe UI';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.ownear-nickk {
+  margin: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  opacity: 0.6;
+}

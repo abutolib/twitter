@@ -1,0 +1,109 @@
+.container1 {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 0 40px 40px;
+}
+
+.signup-title {
+  margin: 0;
+  margin-bottom: 35px;
+  font-family: 'Segoe UI';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.name-input {
+  padding: 23px 20px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  outline: none;
+}
+
+.name-input::placeholder {
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.use-email {
+  display: block;
+  margin-bottom: 40px;
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1DA1F2;
+  text-decoration: none;
+}
+
+.date-of-birth {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+
+}
+
+.date-text {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.month-select {
+  position: relative;
+  width: 100%;
+  max-width: 312px;
+  padding: 23px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+  outline: none;
+  appearance: none;
+
+  background-image: url('../../assets/images/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: right 21px center;
+}
+
+
+.month-option {
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.day-select {
+  width: 159px;
+  margin: 0 20px;
+}
+
+.year-select {
+  margin: 0;
+}
+
+.date-form {
+  margin-bottom: 64px;
+}
+

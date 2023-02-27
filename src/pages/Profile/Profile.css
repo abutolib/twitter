@@ -1,0 +1,74 @@
+.profile-header {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.back-btn {
+  margin-right: 40px;
+  background-color: transparent;
+  border: none;
+}
+
+.profile-owner {
+  margin: 0;
+  font-family: 'Segoe UI';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.tweets-length {
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.bobur-img {
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: -65px;
+  left: 15px;
+}
+
+.owneer-name {
+  margin: 0;
+  margin-top: 85px;
+  font-family: 'Segoe UI';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+
+}
+
+.owneer-nick {
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.container5 {
+  width: 100%;
+  max-width: 840px;
+  padding: 0 20px;
+}
+
+.nickk {
+  cursor: pointer;
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1DA1F2;
+}

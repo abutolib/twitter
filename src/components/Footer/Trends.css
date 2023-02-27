@@ -1,0 +1,47 @@
+.trends {
+  z-index: 9999;
+  width: 350px;
+  max-width: 360px;
+  padding: 0 10px;
+  height: 100vh;
+}
+
+.search-input {
+  width: 100%;
+  padding: 15px 0 15px 54px;
+  background: #EFF3F4;
+  border-radius: 31px;
+  border: none;
+  outline: none;
+}
+
+.search-input::placeholder {
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #5C6C79;
+}
+
+.search-label {
+  position: fixed;
+  z-index: 999;
+
+  width: 330px;
+  margin: 10px 0;
+  background: #EFF3F4;
+  border-radius: 31px;
+}
+
+.search-label::before {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  bottom: 0;
+  margin: auto;
+  content: '';
+  width: 24px;
+  height: 24px;
+  background-image: url('../.././assets/images/search.svg');
+  background-repeat: no-repeat;
+}
